@@ -3,7 +3,7 @@ import { Link as RouterLink } from "react-router-dom";
 
 const Index = () => {
   return (
-    <Container maxW="container.xl" p={4}>
+    <Container maxW="container.xl" p={4} bg="#fff1e5">
       <Flex direction={{ base: "column", md: "row" }} justify="space-between">
         <Box flex="3" p={4}>
           <VStack spacing={4} align="start">
@@ -18,7 +18,7 @@ const Index = () => {
             </Box>
           </VStack>
         </Box>
-        <Box flex="1" p={4} bg="gray.100" borderRadius="md">
+        <Box flex="1" p={4} bg="#fff1e5" borderRadius="md">
           <VStack spacing={4} align="start">
             <Text fontSize="2xl" fontWeight="bold">Market Data</Text>
             <Text>Market data will be displayed here...</Text>

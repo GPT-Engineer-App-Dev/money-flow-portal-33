@@ -3,7 +3,7 @@ import { Link as RouterLink } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <Box bg="gray.200" p={4} mt={8}>
+    <Box bg="#fff1e5" p={4} mt={8}>
       <Flex justify="space-between" wrap="wrap">
         <Box>
           <Text fontWeight="bold">Financial Times</Text>
